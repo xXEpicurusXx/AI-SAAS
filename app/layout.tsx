@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
 import "./globals.css";
+import ConvexClientProvider from "./ConvexClientProvider";
 // import ConvexClerkProvider from "../providers/ConvexClerkProvider";
 // import AudioProvider from "@/providers/AudioProvider";
 
@@ -20,16 +21,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    // <ConvexClerkProvider>
     <html lang="en">
-      <body>{children}</body>
-      {/* //     <AudioProvider>
-    //       <body className={`${manrope.className}`}>
-    //           {children}
-    //       </body>
-    //     </AudioProvider> */}
-      //{" "}
+      <body>
+        <ConvexClientProvider>{children}</ConvexClientProvider>
+      </body>
     </html>
-    // </ConvexClerkProvider>
   );
 }
