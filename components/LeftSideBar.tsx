@@ -27,7 +27,7 @@ const LeftSideBar = () => {
             className="rounded-full"
           />
           <h1 className="text-24 font-extrabold text-white max-lg:hidden">
-            Podcastr
+          TAIOP PodPilot
           </h1>
         </Link>
         {sidebarLinks.map(({ route, label, imgURL }) => {
