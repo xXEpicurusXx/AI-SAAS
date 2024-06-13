@@ -8,19 +8,17 @@ https://steady-elf-38.clerk.accounts.dev
 
 
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_aG90LW1vcmF5LTMxLmNsZXJrLmFjY291bnRzLmRldiQ
-CLERK_SECRET_KEY=sk_test_UzYJ1wdT0QlSwbxT7e9wGGs5hSFcqrCgzaL7Q8QkFL
+current env file:
+
+# Deployment used by `npx convex dev`
+CONVEX_DEPLOYMENT=dev:bright-bear-919 # team: xX_Epicurus_Xx, project: ai-saas-785be
+
+NEXT_PUBLIC_CONVEX_URL=https://bright-bear-919.convex.cloud
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_c3RlYWR5LWVsZi0zOC5jbGVyay5hY2NvdW50cy5kZXYk
+CLERK_SECRET_KEY=sk_test_CWDvzsrfwf9uigaU7pl6ZZQgUczzTubvtvl0lBi0xo
+
+CLERK_WEBHOOK_SECRET=whsec_AgTwpRs7Q9PwLzMhls1ZtprnO87t0A2F
 
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
-
-MONGODB_URL=mongodb+srv://xXEpicurusXx:Camssk19@xxepicurusxx.zrkmhg5.mongodb.net/?retryWrites=true&w=majority&appName=xXEpicurusXx
-
-UPLOADTHING_SECRET=sk_live_97bea5ccc51374c37a8d30c9bf97dcac6c6ed559fa12156c31d9e31d27604875
-UPLOADTHING_APP_ID=kna2y1h07o
-
-
-
-CLERK_WEBHOOK_SECRET
